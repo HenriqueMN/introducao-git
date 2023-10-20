@@ -1,11 +1,11 @@
 git init > criar o repositório local
 
-git remote add origin "link do github" > conectar o repositório local ao do github
+git remote add origin "link do github" > conecta o repositório local ao do github
 
 git add . > adiciona todos os arquivos do repositório no fluxo git
 
-git commit -m "mensagem de commit" > manda todos os arquivos/alterações especificados no git add para o repositório do github
+git commit -m "mensagem de commit" > cria um commit com os arquivos/alterações especificadas e uma mensagem o descrevendo
 
-git push origin main > envia todos os commits para o repositório remoto
+git push origin main > envia todos os commits da branch main para o github
 
-git checkout -b "nome da branch" > cria e troca para uma branch nova com o nome especificado
+git checkout -b "nome da branch" > cria (-b) e troca (checkout) para uma branch nova com o nome especificado
