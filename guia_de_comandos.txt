@@ -7,3 +7,5 @@ git add . > adiciona todos os arquivos do repositório no fluxo git
 git commit -m "mensagem de commit" > manda todos os arquivos/alterações especificados no git add para o repositório do github
 
 git push origin main > envia todos os commits para o repositório remoto
+
+git checkout -b "nome da branch" > cria e troca para uma branch nova com o nome especificado
